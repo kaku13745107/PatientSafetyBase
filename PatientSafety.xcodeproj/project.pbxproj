@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BA1FE891917DF0500D2371A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1FE881917DF0500D2371A /* Foundation.framework */; };
+		3BA1FE8B1917DF0500D2371A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1FE8A1917DF0500D2371A /* CoreGraphics.framework */; };
+		3BA1FE8D1917DF0500D2371A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1FE8C1917DF0500D2371A /* UIKit.framework */; };
+		3BA1FE931917DF0500D2371A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1FE911917DF0500D2371A /* InfoPlist.strings */; };
+		3BA1FE951917DF0500D2371A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1FE941917DF0500D2371A /* main.m */; };
+		3BA1FE991917DF0500D2371A /* PBLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1FE981917DF0500D2371A /* PBLAppDelegate.m */; };
+		3BA1FE9C1917DF0500D2371A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1FE9A1917DF0500D2371A /* Main.storyboard */; };
+		3BA1FE9F1917DF0500D2371A /* PBLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1FE9E1917DF0500D2371A /* PBLViewController.m */; };
+		3BA1FEA11917DF0500D2371A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1FEA01917DF0500D2371A /* Images.xcassets */; };
+		3BA1FEA81917DF0500D2371A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1FEA71917DF0500D2371A /* XCTest.framework */; };
+		3BA1FEA91917DF0500D2371A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1FE881917DF0500D2371A /* Foundation.framework */; };
+		3BA1FEAA1917DF0500D2371A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA1FE8C1917DF0500D2371A /* UIKit.framework */; };
+		3BA1FEB21917DF0500D2371A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1FEB01917DF0500D2371A /* InfoPlist.strings */; };
+		3BA1FEB41917DF0500D2371A /* PatientSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA1FEB31917DF0500D2371A /* PatientSafetyTests.m */; };
+		3BA1FEC01917F06E00D2371A /* change.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1FEBD1917F06E00D2371A /* change.mp3 */; };
+		3BA1FEC11917F06E00D2371A /* enter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1FEBE1917F06E00D2371A /* enter.mp3 */; };
+		3BA1FEC21917F06E00D2371A /* exit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BA1FEBF1917F06E00D2371A /* exit.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BA1FEAB1917DF0500D2371A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BA1FE7D1917DF0500D2371A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BA1FE841917DF0500D2371A;
+			remoteInfo = PatientSafety;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BA1FE851917DF0500D2371A /* PatientSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatientSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA1FE881917DF0500D2371A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BA1FE8A1917DF0500D2371A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BA1FE8C1917DF0500D2371A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BA1FE901917DF0500D2371A /* PatientSafety-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatientSafety-Info.plist"; sourceTree = "<group>"; };
+		3BA1FE921917DF0500D2371A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BA1FE941917DF0500D2371A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BA1FE961917DF0500D2371A /* PatientSafety-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PatientSafety-Prefix.pch"; sourceTree = "<group>"; };
+		3BA1FE971917DF0500D2371A /* PBLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBLAppDelegate.h; sourceTree = "<group>"; };
+		3BA1FE981917DF0500D2371A /* PBLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBLAppDelegate.m; sourceTree = "<group>"; };
+		3BA1FE9B1917DF0500D2371A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3BA1FE9D1917DF0500D2371A /* PBLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBLViewController.h; sourceTree = "<group>"; };
+		3BA1FE9E1917DF0500D2371A /* PBLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBLViewController.m; sourceTree = "<group>"; };
+		3BA1FEA01917DF0500D2371A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BA1FEA61917DF0500D2371A /* PatientSafetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatientSafetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA1FEA71917DF0500D2371A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3BA1FEAF1917DF0500D2371A /* PatientSafetyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PatientSafetyTests-Info.plist"; sourceTree = "<group>"; };
+		3BA1FEB11917DF0500D2371A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BA1FEB31917DF0500D2371A /* PatientSafetyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatientSafetyTests.m; sourceTree = "<group>"; };
+		3BA1FEBD1917F06E00D2371A /* change.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = change.mp3; sourceTree = "<group>"; };
+		3BA1FEBE1917F06E00D2371A /* enter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enter.mp3; sourceTree = "<group>"; };
+		3BA1FEBF1917F06E00D2371A /* exit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = exit.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BA1FE821917DF0500D2371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA1FE8B1917DF0500D2371A /* CoreGraphics.framework in Frameworks */,
+				3BA1FE8D1917DF0500D2371A /* UIKit.framework in Frameworks */,
+				3BA1FE891917DF0500D2371A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA1FEA31917DF0500D2371A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA1FEA81917DF0500D2371A /* XCTest.framework in Frameworks */,
+				3BA1FEAA1917DF0500D2371A /* UIKit.framework in Frameworks */,
+				3BA1FEA91917DF0500D2371A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA1FE7C1917DF0500D2371A = {
+			isa = PBXGroup;
+			children = (
+				3BA1FE8E1917DF0500D2371A /* PatientSafety */,
+				3BA1FEAD1917DF0500D2371A /* PatientSafetyTests */,
+				3BA1FE871917DF0500D2371A /* Frameworks */,
+				3BA1FE861917DF0500D2371A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BA1FE861917DF0500D2371A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1FE851917DF0500D2371A /* PatientSafety.app */,
+				3BA1FEA61917DF0500D2371A /* PatientSafetyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BA1FE871917DF0500D2371A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1FE881917DF0500D2371A /* Foundation.framework */,
+				3BA1FE8A1917DF0500D2371A /* CoreGraphics.framework */,
+				3BA1FE8C1917DF0500D2371A /* UIKit.framework */,
+				3BA1FEA71917DF0500D2371A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BA1FE8E1917DF0500D2371A /* PatientSafety */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1FE971917DF0500D2371A /* PBLAppDelegate.h */,
+				3BA1FE981917DF0500D2371A /* PBLAppDelegate.m */,
+				3BA1FE9A1917DF0500D2371A /* Main.storyboard */,
+				3BA1FE9D1917DF0500D2371A /* PBLViewController.h */,
+				3BA1FE9E1917DF0500D2371A /* PBLViewController.m */,
+				3BA1FEA01917DF0500D2371A /* Images.xcassets */,
+				3BA1FE8F1917DF0500D2371A /* Supporting Files */,
+			);
+			path = PatientSafety;
+			sourceTree = "<group>";
+		};
+		3BA1FE8F1917DF0500D2371A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1FE901917DF0500D2371A /* PatientSafety-Info.plist */,
+				3BA1FEBD1917F06E00D2371A /* change.mp3 */,
+				3BA1FEBE1917F06E00D2371A /* enter.mp3 */,
+				3BA1FEBF1917F06E00D2371A /* exit.mp3 */,
+				3BA1FE911917DF0500D2371A /* InfoPlist.strings */,
+				3BA1FE941917DF0500D2371A /* main.m */,
+				3BA1FE961917DF0500D2371A /* PatientSafety-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BA1FEAD1917DF0500D2371A /* PatientSafetyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1FEB31917DF0500D2371A /* PatientSafetyTests.m */,
+				3BA1FEAE1917DF0500D2371A /* Supporting Files */,
+			);
+			path = PatientSafetyTests;
+			sourceTree = "<group>";
+		};
+		3BA1FEAE1917DF0500D2371A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BA1FEAF1917DF0500D2371A /* PatientSafetyTests-Info.plist */,
+				3BA1FEB01917DF0500D2371A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BA1FE841917DF0500D2371A /* PatientSafety */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA1FEB71917DF0500D2371A /* Build configuration list for PBXNativeTarget "PatientSafety" */;
+			buildPhases = (
+				3BA1FE811917DF0500D2371A /* Sources */,
+				3BA1FE821917DF0500D2371A /* Frameworks */,
+				3BA1FE831917DF0500D2371A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatientSafety;
+			productName = PatientSafety;
+			productReference = 3BA1FE851917DF0500D2371A /* PatientSafety.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BA1FEA51917DF0500D2371A /* PatientSafetyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA1FEBA1917DF0500D2371A /* Build configuration list for PBXNativeTarget "PatientSafetyTests" */;
+			buildPhases = (
+				3BA1FEA21917DF0500D2371A /* Sources */,
+				3BA1FEA31917DF0500D2371A /* Frameworks */,
+				3BA1FEA41917DF0500D2371A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BA1FEAC1917DF0500D2371A /* PBXTargetDependency */,
+			);
+			name = PatientSafetyTests;
+			productName = PatientSafetyTests;
+			productReference = 3BA1FEA61917DF0500D2371A /* PatientSafetyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BA1FE7D1917DF0500D2371A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PBL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kakuhrf;
+				TargetAttributes = {
+					3BA1FEA51917DF0500D2371A = {
+						TestTargetID = 3BA1FE841917DF0500D2371A;
+					};
+				};
+			};
+			buildConfigurationList = 3BA1FE801917DF0500D2371A /* Build configuration list for PBXProject "PatientSafety" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BA1FE7C1917DF0500D2371A;
+			productRefGroup = 3BA1FE861917DF0500D2371A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BA1FE841917DF0500D2371A /* PatientSafety */,
+				3BA1FEA51917DF0500D2371A /* PatientSafetyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BA1FE831917DF0500D2371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA1FEA11917DF0500D2371A /* Images.xcassets in Resources */,
+				3BA1FEC11917F06E00D2371A /* enter.mp3 in Resources */,
+				3BA1FEC21917F06E00D2371A /* exit.mp3 in Resources */,
+				3BA1FE931917DF0500D2371A /* InfoPlist.strings in Resources */,
+				3BA1FEC01917F06E00D2371A /* change.mp3 in Resources */,
+				3BA1FE9C1917DF0500D2371A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA1FEA41917DF0500D2371A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA1FEB21917DF0500D2371A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BA1FE811917DF0500D2371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA1FE951917DF0500D2371A /* main.m in Sources */,
+				3BA1FE991917DF0500D2371A /* PBLAppDelegate.m in Sources */,
+				3BA1FE9F1917DF0500D2371A /* PBLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BA1FEA21917DF0500D2371A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BA1FEB41917DF0500D2371A /* PatientSafetyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BA1FEAC1917DF0500D2371A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BA1FE841917DF0500D2371A /* PatientSafety */;
+			targetProxy = 3BA1FEAB1917DF0500D2371A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BA1FE911917DF0500D2371A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA1FE921917DF0500D2371A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BA1FE9A1917DF0500D2371A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA1FE9B1917DF0500D2371A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3BA1FEB01917DF0500D2371A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BA1FEB11917DF0500D2371A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BA1FEB51917DF0500D2371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BA1FEB61917DF0500D2371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BA1FEB81917DF0500D2371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatientSafety/PatientSafety-Prefix.pch";
+				INFOPLIST_FILE = "PatientSafety/PatientSafety-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BA1FEB91917DF0500D2371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatientSafety/PatientSafety-Prefix.pch";
+				INFOPLIST_FILE = "PatientSafety/PatientSafety-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3BA1FEBB1917DF0500D2371A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PatientSafety.app/PatientSafety";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatientSafety/PatientSafety-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PatientSafetyTests/PatientSafetyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3BA1FEBC1917DF0500D2371A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PatientSafety.app/PatientSafety";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PatientSafety/PatientSafety-Prefix.pch";
+				INFOPLIST_FILE = "PatientSafetyTests/PatientSafetyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA1FE801917DF0500D2371A /* Build configuration list for PBXProject "PatientSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA1FEB51917DF0500D2371A /* Debug */,
+				3BA1FEB61917DF0500D2371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA1FEB71917DF0500D2371A /* Build configuration list for PBXNativeTarget "PatientSafety" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA1FEB81917DF0500D2371A /* Debug */,
+				3BA1FEB91917DF0500D2371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BA1FEBA1917DF0500D2371A /* Build configuration list for PBXNativeTarget "PatientSafetyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BA1FEBB1917DF0500D2371A /* Debug */,
+				3BA1FEBC1917DF0500D2371A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BA1FE7D1917DF0500D2371A /* Project object */;
+}
