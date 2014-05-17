@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Beacon対象が存在すれば、初期化する
+    // Beacon対象が存在すれば、初期化するtest
 	if ([CLLocationManager isMonitoringAvailableForClass:[CLBeaconRegion class]]) {
         // CLLocationManagerの生成とデリゲートの設定
         self.manager = [CLLocationManager new];
